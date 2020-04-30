@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  post 'hero' , to:'hero#index'
-  post 'hero/index'
+  get 'hero/index'
+  get 'hero' , to:'hero#index'
 end
