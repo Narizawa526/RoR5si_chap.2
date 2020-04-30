@@ -1438,3 +1438,10 @@ Processing by HeroController#index as HTML
 Completed 200 OK in 322ms (Views: 318.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/hero" for ::1 at 2020-04-30 19:22:43 +0900
+Processing by HeroController#index as HTML
+  Rendering hero/index.html.erb within layouts/application
+  Rendered hero/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 377ms (Views: 365.0ms | ActiveRecord: 0.0ms)
+
+
