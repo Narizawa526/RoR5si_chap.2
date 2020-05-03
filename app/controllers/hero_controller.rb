@@ -3,7 +3,7 @@ class HeroController < ApplicationController
   def index
     if request.post? then
       @title = 'Result'
-        if params['check1']then
+        if params['check1'] == nil then
           @msg = 'you Checked!!'
         else
           @msg = 'not checked...'
